@@ -1,0 +1,25 @@
+
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+
+
+ public class ReverseString {
+    public static void main(String[] args)
+    {
+        String str = "Shubham Bachan Tiwari";
+        String str2="shubham";
+
+        StringBuilder str1 = new StringBuilder();
+
+        // append a string into StringBuilder input1
+        str1.append(str);
+
+        // reverse StringBuilder input1
+        str1.reverse();
+
+        // print reversed String
+        System.out.println(str1);
+        System.out.println(str2.toUpperCase());//lower to upper case convert
+    }
+}
